@@ -39,7 +39,7 @@ html {
 
 /* To make images round/add border */
 
-/*#me,#key_img, #cat_img, #write_img, #messy_img, #coffee_img {
+#me {
   border-radius: 50%;
   border: 5px solid #ffffff;
 }
