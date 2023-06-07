@@ -17,6 +17,13 @@ const renderPage = ()=>{
         return (
             <div>
                 <h1>Portfolio</h1>
+                <img src="/cosmic.png" height="150" alt="" id = "cosmic"></img>
+                <img src="/sleep.png" height="150" alt="" id = "sleep"></img>
+                <img src="/notetaker.png" height="150" alt="" id = "note"></img>
+                <br></br>
+                <img src="/planner.png" height="150" alt="" id = "planner"></img>
+                <img src="/weather.png" height="150" alt="" id = "weather"></img>
+                <img src="/codequiz.png" height="150" alt="" id = "codequiz"></img>
             </div>
         )
 
