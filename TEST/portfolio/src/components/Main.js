@@ -17,20 +17,80 @@ const renderPage = ()=>{
         return (
             <div>
                 <h1>Portfolio</h1>
+                <div className= "card-container">
                 <img src="/cosmic.png" height="150" alt="" id = "cosmic"></img>
-                <img src="/sleep.png" height="150" alt="" id = "sleep"></img>
-                <img src="/notetaker.png" height="150" alt="" id = "note"></img>
-                <br></br>
-                <img src="/planner.png" height="150" alt="" id = "planner"></img>
-                <img src="/weather.png" height="150" alt="" id = "weather"></img>
-                <img src="/codequiz.png" height="150" alt="" id = "codequiz"></img>
-            </div>
+                <h3 id = "cosmic"> Cosmic Climate </h3>
+                <p>Project description</p>
+                <button className= "card-btn">Github Repo</button>
+                <button className= "card-btn">Live Site</button>
+                </div>
+                <div className= "card-container">
+                <img src="/sleep.png" height="150" alt="" id = "cosmic"></img>
+                <h3 id = "cosmic"> Cosmic Climate </h3>
+                <p>Project description</p>
+                <button className= "card-btn">Github Repo</button>
+                <button className= "card-btn">Live Site</button>
+                </div>
+                <div className= "card-container">
+                <img src="/notetaker.png" height="150" alt="" id = "cosmic"></img>
+                <h3 id = "cosmic"> Cosmic Climate </h3>
+                <p>Project description</p>
+                <button className= "card-btn">Github Repo</button>
+                <button className= "card-btn">Live Site</button>
+                </div>
+                <div className= "card-container">
+                <img src="/planner.png" height="150" alt="" id = "cosmic"></img>
+                <h3 id = "cosmic"> Cosmic Climate </h3>
+                <p>Project description</p>
+                <button className= "card-btn">Github Repo</button>
+                <button className= "card-btn">Live Site</button>
+                </div>
+                <div className= "card-container">
+                <img src="/weather.png" height="150" alt="" id = "cosmic"></img>
+                <h3 id = "cosmic"> Cosmic Climate </h3>
+                <p>Project description</p>
+                <button className= "card-btn">Github Repo</button>
+                <button className= "card-btn">Live Site</button>
+                </div>
+                <div className= "card-container">
+                <img src="/codequiz.png" height="150" alt="" id = "cosmic"></img>
+                <h3 id = "cosmic"> Cosmic Climate </h3>
+                <p>Project description</p>
+                <button className= "card-btn" id = "git">Github Repo</button>
+                <button className= "card-btn" id = "live">Live Site</button>
+                </div>
+               </div>
         )
 
         case("resume"):
         return (
             <div>
                 <h1>Resume</h1>
+                <div className= "res-container">   
+                <h4 id="container-title">Front-end Proficiencies</h4>
+                
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>JQuery</li>
+        <li>responsive design</li>
+        <li>React</li>
+        <li>Bootstrap</li>
+      </ul>
+
+      <h4>Back-end Proficiencies</h4>
+      
+      <ul>
+        <li>APIs</li>
+        <li>Node.js</li>
+        <li>Express</li>
+        <li>MySQL, Sequelize</li>
+        <li>MongoDB, Mongoose</li>
+        <li>REST</li>
+        <li>GraphQL</li>
+      </ul>
+      </div>
             </div>
         )
 
@@ -38,6 +98,7 @@ const renderPage = ()=>{
         return (
             <div>
                 <h1>Contact</h1>
+                
             </div>
         )
     }
