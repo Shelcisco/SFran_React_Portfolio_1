@@ -32,7 +32,7 @@ const renderPage = ()=>{
         return (
             <div>
                 <h1>About Me</h1>
-                <p> <img src="/Mee.jpg" height="100" alt="" id = "me"></img> Hi there, my name is Shelby. After working in financials for years I wanted to try something more creative than crunching numbers, I took a big step and signed up for the UW's coding bootcamp.</p> 
+                <p> <img src="/SFran_React_Portfolio/Mee.jpg" height="100" alt="" id = "me"></img> Hi there, my name is Shelby. After working in financials for years I wanted to try something more creative than crunching numbers, I took a big step and signed up for the UW's coding bootcamp.</p> 
  <p>While there's nothing wrong with crunching, I've found I prefer coding! I'm consistently working to improve my skills, please see my portfolio to look at what I've built so far. Thank you!  </p>
             </div>
         )
