@@ -8,7 +8,7 @@ export default function Main({page}){
     var [email,setEmail] = useState ("");
     var [emailError,setEmailError] = useState (false);
     function validateEmail () {
-        setEmailError (validEmail.test(email))
+        setEmailError (!validEmail.test(email))
     }
 
     var [name,setName] = useState ("");
@@ -44,63 +44,63 @@ const renderPage = ()=>{
                 <div className= "card-container flex-col">
                 <img src="/cosmic.png" height="150" alt="" id = "cardImage"></img>
                 <h3 id="text"> Cosmic Climate </h3>
-                <p id="text">Project description</p>
+                <p id="text">Collabarative Project using mulitple Server Side APIs</p>
                 <div className="flex-row text-center">
                     <br></br>
-                <button className= "card-btn flex-col">Github Repo</button>
-                <button className= "card-btn flex-col">live Site</button>
+                <button className="card-btn"><a href="https://github.com/dingbat-weasel/Cosmic-Climate" > Github Repo</a></button>
+                <button className="card-btn"><a href="https://dingbat-weasel.github.io/Cosmic-Climate/" > Live Site</a></button>
                 </div>
                 </div>
                 <div className= "card-container flex-col">
                 <img src="/sleep.png" height="150" alt="" id = "cardImage"></img>
                 <h3 id="text"> Sleep Sync </h3>
-                <p id="text">Project description</p>
+                <p id="text">Collabarative Project Using MVC paradigm</p>
                 <div className="flex-row text-center">
                 <br></br>
-                <button className= "card-btn flex-col">Github Repo</button>
-                <button className= "card-btn flex-col">live Site</button>
+                <button className="card-btn"><a href="https://github.com/jbungurait/Sleep_Tracker_App" > Github Repo</a></button>
+                <button className="card-btn"><a href="https://sleep--sync.herokuapp.com/" > Live Site</a></button>
                 </div>
                 </div>
                 <div className= "card-container flex-col">
                 <img src="/notetaker.png" height="150" alt="" id = "cardImage"></img>
                 <h3 id="text"> Note Taker Express </h3>
-                <p id="text">Project description</p>
+                <p id="text">Bootcamp Challenge: Note Taker using express.js</p>
                 <div className="flex-row text-center">
                 <br></br>
-                <button className= "card-btn flex-col">Github Repo</button>
-                <button className= "card-btn flex-col">live Site</button>
+                <button className="card-btn"><a href="https://github.com/Shelcisco/Note-Taker-Express" > Github Repo</a></button>
+                <button className="card-btn"><a href="https://shelcisco-note-taker-express.herokuapp.com/" > Live Site</a></button>
                 </div>
                 </div>
                 </div>
                 <div className="flex-row justify-center">
                 <div className= "card-container flex-col">
                 <img src="/planner.png" height="150" alt="" id = "cardImage"></img>
-                <h3 id="text"> Workday Planner </h3>
-                <p id="text">Project description</p>
+                <h3 id="text"> Workplace Planner </h3>
+                <p id="text">Bootcamp Challenge: Scheduler, HTML/CSS powered by jQuery</p>
                 <div className="flex-row text-center">
                 <br></br>
-                <button className= "card-btn flex-col">Github Repo</button>
-                <button className= "card-btn flex-col">live Site</button>
+                <button className="card-btn"><a href="https://github.com/Shelcisco/Workplace-Planner" > Github Repo</a></button>
+                <button className="card-btn"><a href="https://shelcisco.github.io/Workplace-Planner/" > Live Site</a></button>
                 </div>
                 </div>
                 <div className= "card-container flex-col">
                 <img src="/weather.png" height="150" alt="" id = "cardImage"></img>
                 <h3 id="text"> Weather Now </h3>
-                <p id="text">Project description</p>
+                <p id="text">Bootcamp Challenge: Weather Dashboard using server side API</p>
                 <div className="flex-row text-center">
                 <br></br>
-                <button className= "card-btn flex-col">Github Repo</button>
-                <button className= "card-btn flex-col">live Site</button>
+                <button className="card-btn"><a href="https://github.com/Shelcisco/Weather-Now" > Github Repo</a></button>
+                <button className="card-btn"><a href="https://shelcisco.github.io/Weather-Now/" > Live Site</a></button>
                 </div>
                 </div>
                 <div className= "card-container flex-col">
                 <img src="/codequiz.png" height="150" alt="" id = "cardImage"></img>
                 <h3 id="text"> Coding Quiz </h3>
-                <p id="text">Project description</p>
+                <p id="text">Bootcamp Challenge: Timed Quiz, dynamic HTML/CSS powered by JS</p>
                 <div className="flex-row text-center">
                 <br></br>
-                <button className= "card-btn flex-col">Github Repo</button>
-                <button className= "card-btn flex-col">live Site</button>
+                <button className="card-btn"><a href="https://github.com/Shelcisco/Coding-Quiz" > Github Repo</a></button>
+                <button className="card-btn"><a href="https://shelcisco.github.io/Coding-Quiz/" > Live Site</a></button>
                 </div>
                 </div>
                 </div>
@@ -112,11 +112,11 @@ const renderPage = ()=>{
             <div className="text-center">
                 <h1>Resume</h1>
                 <div className= "res-container text-center justify-center">  
-                <p><a href="/email.png" download> Download</a> Resume</p> 
+                <p id="text"><a href="/email.png" download> Download</a></p> 
                 
                 
       <div id="text">
-      <h3>Front-end Proficiencies</h3>
+      <h4>Front-end Proficiencies</h4>
         <p >HTML</p>
         <p>CSS</p>
         <p>JavaScript</p>
@@ -129,7 +129,7 @@ const renderPage = ()=>{
       
       
       <div id="text">
-      <h3 id="text">Back-end Proficiencies</h3>
+      <h4 id="text">Back-end Proficiencies</h4>
         <p >APIs</p>
         <p>Node.js</p>
         <p>Express</p>
@@ -156,7 +156,7 @@ const renderPage = ()=>{
                 onBlur={validateEmail}
                 >
                 </input>
-                {emailError && <h5 className="error">Please enter vapd email</h5>}
+                {emailError && <h5 className="error">Please enter valid email</h5>}
                 <br></br>
                 <input className="form-input"
                 type="text" 
