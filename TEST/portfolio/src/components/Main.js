@@ -32,8 +32,8 @@ const renderPage = ()=>{
         return (
             <div>
                 <h1>About Me</h1>
-                <p> <img src="/Mee.jpg" height="100" alt="" id = "me"></img> Hi there, my name is Shelby. After working in finanacials for years I wanted to try something more creative than crunching numbers, I took a big step and signed up for the UW's coding bootcamp.</p> 
- <p>While there's nothing wrong with crunching, I've found I prefer coding! I'm consistently working to improve my skills, please see below to see what I've built so far. Thank you!  </p>
+                <p> <img src="/Mee.jpg" height="100" alt="" id = "me"></img> Hi there, my name is Shelby. After working in financials for years I wanted to try something more creative than crunching numbers, I took a big step and signed up for the UW's coding bootcamp.</p> 
+ <p>While there's nothing wrong with crunching, I've found I prefer coding! I'm consistently working to improve my skills, please see my portfolio look at what I've built so far. Thank you!  </p>
             </div>
         )
         case("main"):
@@ -112,11 +112,11 @@ const renderPage = ()=>{
             <div className="text-center">
                 <h1>Resume</h1>
                 <div className= "res-container text-center justify-center">  
-                <p id="text"><a href="/email.png" download> Download</a></p> 
+                <p><a href="/email.png" download> Download</a>Resume</p> 
                 
-                
+                <div className="flex-row justify-center">          
       <div id="text">
-      <h4>Front-end Proficiencies</h4>
+      <h3>Front-end Proficiencies</h3>
         <p >HTML</p>
         <p>CSS</p>
         <p>JavaScript</p>
@@ -126,10 +126,11 @@ const renderPage = ()=>{
         <p>Bootstrap</p>
       </div>
 
-      
+      <br></br>
+      <br></br>
       
       <div id="text">
-      <h4 id="text">Back-end Proficiencies</h4>
+      <h3 id="text">Back-end Proficiencies</h3>
         <p >APIs</p>
         <p>Node.js</p>
         <p>Express</p>
@@ -139,6 +140,7 @@ const renderPage = ()=>{
         <p>GraphQL</p>
       </div>
       </div>
+            </div>
             </div>
         )
 
