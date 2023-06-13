@@ -122,6 +122,7 @@ font-family: Segoe Script;
  
 
   .card-container {
+  /* height: 50px; */
   width: 18rem;
   border-radius: 1rem;
   box-shadow: 0px 10px 8px #999;
