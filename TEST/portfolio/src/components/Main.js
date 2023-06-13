@@ -3,24 +3,24 @@ import React, { useState } from "react";
 
 export default function Main({page}){
 
-    const vapdEmail = new RegExp(
+    const validEmail = new RegExp(
         '^[a-zA-Z0-9._:$!%-]+@[a-zA-Z0-9.-]+.[a-zA-Z]$');
     var [email,setEmail] = useState ("");
     var [emailError,setEmailError] = useState (false);
-    function vapdateEmail () {
-        setEmailError (!vapdEmail.test(email))
+    function validateEmail () {
+        setEmailError (validEmail.test(email))
     }
 
     var [name,setName] = useState ("");
     var [nameError,setNameError] = useState (false);
-    function vapdateName () {
+    function validateName () {
         setNameError (name.trim()=="")
 
     }
 
     var [message,setMessage] = useState ("");
     var [messageError,setMessageError] = useState (false);
-    function vapdateMessage () {
+    function validateMessage () {
         setMessageError (message.trim()=="")
 
     }
@@ -153,7 +153,7 @@ const renderPage = ()=>{
                     email
                 }
                 onChange={(event)=>setEmail(event.target.value)}
-                onBlur={vapdateEmail}
+                onBlur={validateEmail}
                 >
                 </input>
                 {emailError && <h5 className="error">Please enter vapd email</h5>}
@@ -165,7 +165,7 @@ const renderPage = ()=>{
                     name
                 }
                 onChange={(event)=>setName(event.target.value)}
-                onBlur={vapdateName}
+                onBlur={validateName}
                 >
                 </input>
                 {nameError && <h5 className="error" >Please enter name</h5>}
@@ -177,7 +177,7 @@ const renderPage = ()=>{
                     message
                 }
                 onChange={(event)=>setMessage(event.target.value)}
-                onBlur={vapdateMessage}
+                onBlur={validateMessage}
                 >
                 </input>
                 {messageError && <h5 className="error" >Please enter message</h5>}
