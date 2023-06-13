@@ -42,7 +42,7 @@ const renderPage = ()=>{
                 <h1>Portfolio</h1>
                 <div className="flex-row justify-center">
                 <div className= "card-container flex-col">
-                <img src="/cosmic.png" height="150" alt="" id = "cardImage"></img>
+                <img src="/SFran_React_Portfolio/cosmic.png" height="150" alt="" id = "cardImage"></img>
                 <h3 id="text"> Cosmic Climate </h3>
                 <p id="text">Collabarative Project using mulitple Server Side APIs</p>
                 <div className="flex-row text-center">
@@ -52,7 +52,7 @@ const renderPage = ()=>{
                 </div>
                 </div>
                 <div className= "card-container flex-col">
-                <img src="/sleep.png" height="150" alt="" id = "cardImage"></img>
+                <img src="/SFran_React_Portfolio/sleep.png" height="150" alt="" id = "cardImage"></img>
                 <h3 id="text"> Sleep Sync </h3>
                 <p id="text">Collabarative Project Using MVC paradigm</p>
                 <div className="flex-row text-center">
@@ -62,7 +62,7 @@ const renderPage = ()=>{
                 </div>
                 </div>
                 <div className= "card-container flex-col">
-                <img src="/notetaker.png" height="150" alt="" id = "cardImage"></img>
+                <img src="/SFran_React_Portfolio/notetaker.png" height="150" alt="" id = "cardImage"></img>
                 <h3 id="text"> Note Taker Express </h3>
                 <p id="text">Bootcamp Challenge: Note Taker using express.js</p>
                 <div className="flex-row text-center">
@@ -74,7 +74,7 @@ const renderPage = ()=>{
                 </div>
                 <div className="flex-row justify-center">
                 <div className= "card-container flex-col">
-                <img src="/planner.png" height="150" alt="" id = "cardImage"></img>
+                <img src="/SFran_React_Portfolio/planner.png" height="150" alt="" id = "cardImage"></img>
                 <h3 id="text"> Workplace Planner </h3>
                 <p id="text">Bootcamp Challenge: Scheduler, HTML/CSS powered by jQuery</p>
                 <div className="flex-row text-center">
@@ -84,7 +84,7 @@ const renderPage = ()=>{
                 </div>
                 </div>
                 <div className= "card-container flex-col">
-                <img src="/weather.png" height="150" alt="" id = "cardImage"></img>
+                <img src="/SFran_React_Portfolio/weather.png" height="150" alt="" id = "cardImage"></img>
                 <h3 id="text"> Weather Now </h3>
                 <p id="text">Bootcamp Challenge: Forecast app using server side API</p>
                 <div className="flex-row text-center">
@@ -94,7 +94,7 @@ const renderPage = ()=>{
                 </div>
                 </div>
                 <div className= "card-container flex-col">
-                <img src="/codequiz.png" height="150" alt="" id = "cardImage"></img>
+                <img src="/SFran_React_Portfolio/codequiz.png" height="150" alt="" id = "cardImage"></img>
                 <h3 id="text"> Coding Quiz </h3>
                 <p id="text">Bootcamp Challenge: Timed Quiz, HTML/CSS powered by JS</p>
                 <div className="flex-row text-center">
@@ -112,7 +112,7 @@ const renderPage = ()=>{
             <div className="text-center">
                 <h1>Resume</h1>
                 <div className= "res-container text-center justify-center">  
-                <p><a href="/ResumeFiller.png" download> Download</a>Resume</p> 
+                <p><a href="/SFran_React_Portfolio/ResumeFiller.png" download> Download</a>Resume</p> 
                 
                 <div className="flex-row justify-center">          
       <div id="text">
