@@ -33,7 +33,7 @@ const renderPage = ()=>{
             <div>
                 <h1>About Me</h1>
                 <p> <img src="/Mee.jpg" height="100" alt="" id = "me"></img> Hi there, my name is Shelby. After working in financials for years I wanted to try something more creative than crunching numbers, I took a big step and signed up for the UW's coding bootcamp.</p> 
- <p>While there's nothing wrong with crunching, I've found I prefer coding! I'm consistently working to improve my skills, please see my portfolio look at what I've built so far. Thank you!  </p>
+ <p>While there's nothing wrong with crunching, I've found I prefer coding! I'm consistently working to improve my skills, please see my portfolio to look at what I've built so far. Thank you!  </p>
             </div>
         )
         case("main"):
@@ -86,7 +86,7 @@ const renderPage = ()=>{
                 <div className= "card-container flex-col">
                 <img src="/weather.png" height="150" alt="" id = "cardImage"></img>
                 <h3 id="text"> Weather Now </h3>
-                <p id="text">Bootcamp Challenge: Weather Dashboard using server side API</p>
+                <p id="text">Bootcamp Challenge: Forecast app using server side API</p>
                 <div className="flex-row text-center">
                 <br></br>
                 <button className="card-btn"><a href="https://github.com/Shelcisco/Weather-Now" > Github Repo</a></button>
@@ -96,7 +96,7 @@ const renderPage = ()=>{
                 <div className= "card-container flex-col">
                 <img src="/codequiz.png" height="150" alt="" id = "cardImage"></img>
                 <h3 id="text"> Coding Quiz </h3>
-                <p id="text">Bootcamp Challenge: Timed Quiz, dynamic HTML/CSS powered by JS</p>
+                <p id="text">Bootcamp Challenge: Timed Quiz, HTML/CSS powered by JS</p>
                 <div className="flex-row text-center">
                 <br></br>
                 <button className="card-btn"><a href="https://github.com/Shelcisco/Coding-Quiz" > Github Repo</a></button>
@@ -112,7 +112,7 @@ const renderPage = ()=>{
             <div className="text-center">
                 <h1>Resume</h1>
                 <div className= "res-container text-center justify-center">  
-                <p><a href="/email.png" download> Download</a>Resume</p> 
+                <p><a href="/ResumeFiller.png" download> Download</a>Resume</p> 
                 
                 <div className="flex-row justify-center">          
       <div id="text">
