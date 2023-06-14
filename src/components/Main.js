@@ -62,13 +62,13 @@ const renderPage = ()=>{
                 </div>
                 </div>
                 <div className= "card-container flex-col">
-                <img src="/SFran_React_Portfolio/notetaker.png" height="150" alt="" id = "cardImage"></img>
-                <h3 id="text"> Note Taker Express </h3>
-                <p id="text">Bootcamp Challenge: Note Taker using express.js</p>
+                <img src="/SFran_React_Portfolio/hozho.png" height="150" alt="" id = "cardImage"></img>
+                <h3 id="text"> Hozho Weaving Network </h3>
+                <p id="text">Collabarative project using MERN and GraphQL</p>
                 <div className="flex-row text-center">
                 <br></br>
-                <button className="card-btn"><a href="https://github.com/Shelcisco/Note-Taker-Express" > Github Repo</a></button>
-                <button className="card-btn"><a href="https://shelcisco-note-taker-express.herokuapp.com/" > Live Site</a></button>
+                <button className="card-btn"><a href="https://github.com/Shelcisco/Hozho-Weaving-Network" > Github Repo</a></button>
+                <button className="card-btn"><a href="https://hozho-weaving-network.herokuapp.com/" > Live Site</a></button>
                 </div>
                 </div>
                 </div>
@@ -85,12 +85,12 @@ const renderPage = ()=>{
                 </div>
                 <div className= "card-container flex-col">
                 <img src="/SFran_React_Portfolio/weather.png" height="150" alt="" id = "cardImage"></img>
-                <h3 id="text"> Weather Now </h3>
-                <p id="text">Bootcamp Challenge: Forecast app using server side API</p>
+                <h3 id="text"> Note Taker Express </h3>
+                <p id="text">Bootcamp Challenge: Note Taker using express.js</p>
                 <div className="flex-row text-center">
                 <br></br>
-                <button className="card-btn"><a href="https://github.com/Shelcisco/Weather-Now" > Github Repo</a></button>
-                <button className="card-btn"><a href="https://shelcisco.github.io/Weather-Now/" > Live Site</a></button>
+                <button className="card-btn"><a href="https://github.com/Shelcisco/Note-Taker-Express" > Github Repo</a></button>
+                <button className="card-btn"><a href="https://shelcisco-note-taker-express.herokuapp.com/" > Live Site</a></button>
                 </div>
                 </div>
                 <div className= "card-container flex-col">
